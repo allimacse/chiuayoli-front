@@ -1,0 +1,143 @@
+html, body {
+  height: 100%;
+}
+
+.container-fluid {
+  height: 100vh;
+  align-content: center;
+}
+
+.chiuayoli-info {
+  height: 100vh;
+  background-color: #429066;
+}
+
+.logo {
+  display: block;
+  margin: 20vh auto 60px auto;
+  width: 284px;
+  height: 284px;
+  padding: 0px 0px 0 0;
+}
+
+.slogan-chiuayoli {
+  margin: 0px auto 60px auto;
+  height: 22px;
+  font-family: OpenSansHebrew;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text-chiuayoli {
+  width: 450px;
+  margin: 0px auto 60px auto;
+  height: 46px;
+  font-family: OpenSansHebrew;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  margin-top: 20vh;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+
+.chiuayoli-letters {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-family: OpenSansHebrew;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.form-control {
+  width: 326px;
+  height: 48px;
+  padding: 13px 22.9px 19px 19.1px;
+  border-radius: 7px;
+  border: solid 1px #c1c1c1;
+  background-color: #fcfdfe;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1e2b51;
+}
+
+.forgot-password {
+  display: block;
+  width: 255px;
+  height: 35px;
+  padding: 10px 79px 7px 0;
+  border-radius: 3px;
+  font-family: OpenSansHebrew;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.login {
+  display: block;
+  width: 321px;
+  height: 48px;
+  font-family: OpenSansHebrew;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  background-color: #429066;
+}
+
+.signup{
+  display: block;
+  margin: 15px auto 0 auto;
+  width: 172px;
+  height: 15px;
+  font-family: OpenSansHebrew;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
