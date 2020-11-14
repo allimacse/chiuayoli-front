@@ -2,15 +2,18 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from './Routes';
+import { AuthContextProvider } from './context/AuthContext.js'
 
 function App() {
   return (
-    <>
+    <React.Fragment>
       <Router>
+        <AuthContextProvider>
         <div className="container" />
-        {Routes}
+          {Routes}
+        </AuthContextProvider>
       </Router>
-    </>
+    </React.Fragment>
   );
 }
 
